@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles.css">
+    <title>HTML_CSS_features</title>
+</head>
+
+<body>
+    <ul class="navigation">
+        <li><a href="../index.html">Main</a></li>
+        <li class="dropdown"><a href="main_html.html" class="dropbtn active">HTML</a>
+            <div class="dropdown-content">
+                <a href="audio_html.html">Audio</a>
+                <a class="active" href="custom_html.html">Data Attribute</a>
+                <a href="mark_html.html">Mark Element</a>
+                <a href="regex_html.html">Regular Expressions</a>
+                <a href="video_html.html">Video</a>
+            </div>
+        </li>
+        <li class="dropdown"><a href="main_css.html" class="dropbtn">CSS</a>
+            <div class="dropdown-content">
+                <a href="anim_css.html">Animations and Transitions</a>
+                <a href="gradients_css.html">Gradients</a>
+                <a href="background_css.html">Multiple Backgrounds</a>
+                <a href="columns_css.html">CSS columns</a>
+                <a href="3d_css.html">3D Transformation</a>
+            </div>
+        </li>
+    </ul>
+
+    <div class="container">
+        <p>
+            HTML5 is designed with extensibility in mind for data that should be associated with a particular element
+            but need not
+            have any defined meaning. <code>data-*</code> attributes allow us to store extra information on standard,
+            semantic HTML elements
+            without other hacks such as non-standard attributes, extra properties on <code>DOM</code>, or
+            <code>Node.setUserData()</code>.
+        </p>
+        <p>
+            The syntax is very simple: <br>
+            <ul>
+                <li>data-columns="3"</li>
+                <li>data-index-number="12314"</li>
+                <li>data-parent="cars"</li>
+            </ul>
+        </p>
+
+        <p>More can be found <a target="_blank"
+                href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes">here</a>.</p>
+    </div>
+
+    <footer>
+        All rights reserved
+    </footer>
+</body>
+
+</html>

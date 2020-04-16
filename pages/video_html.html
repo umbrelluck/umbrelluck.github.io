@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles.css">
+    <title>HTML_CSS_features</title>
+</head>
+
+<body>
+    <ul class="navigation">
+        <li><a href="../index.html">Main</a></li>
+        <li class="dropdown"><a href="main_html.html" class="dropbtn active">HTML</a>
+            <div class="dropdown-content">
+                <a href="audio_html.html">Audio</a>
+                <a href="custom_html.html">Data Attribute</a>
+                <a href="mark_html.html">Mark Element</a>
+                <a href="regex_html.html">Regular Expressions</a>
+                <a class="active" href="video_html.html">Video</a>
+            </div>
+        </li>
+        <li class="dropdown"><a href="main_css.html" class="dropbtn">CSS</a>
+            <div class="dropdown-content">
+                <a href="anim_css.html">Animations and Transitions</a>
+                <a href="gradients_css.html">Gradients</a>
+                <a href="background_css.html">Multiple Backgrounds</a>
+                <a href="columns_css.html">CSS columns</a>
+                <a href="3d_css.html">3D Transformation</a>
+            </div>
+        </li>
+    </ul>
+    <div class="container">
+        <p>
+            <strong>HTML Video element (<code>video</code>)</strong> embeds a media player which supports video playback
+            into the
+            document. You can use
+            <code>video</code> for audio content as well, but the <code>audio</code> element may provide a more
+            appropriate user experience.
+        </p>
+        <video style="margin: 3vh;" controls preload>
+            <source src="../media_content/file_example_MP4_480_1_5MG.mp4" type="video/mp4" />
+        </video>
+        <span>
+            <ul>
+                <li>
+                    <strong>autoPictureInPicture<br></strong>
+                    A Boolean attribute which if true indicates that the element should automatically toggle
+                    picture-in-picture mode
+                    when
+                    the user switches back and forth between this document and another document or application.
+                </li>
+                <li>
+                    <strong>buffered<br></strong>
+                    An attribute you can read to determine the time ranges of the buffered media. This attribute
+                    contains a
+                    TimeRanges
+                    object.
+                </li>
+                <li>
+                    <strong>controls<br></strong>
+                    If this attribute is present, the browser will offer controls to allow the user to control video
+                    playback,
+                    including
+                    volume, seeking, and pause/resume playback.
+                </li>
+                <li>
+                    <strong>controlslist<br></strong>
+                    The controlslist attribute, when specified, helps the browser select what controls to show on the
+                    media element
+                    whenever
+                    the browser shows its own set of controls (e.g. when the controls attribute is specified).
+                    The allowed values are nodownload, nofullscreen and noremoteplayback.
+
+                    Use the disablePictureInPicture attribute if you want to disable the Picture-In-Picture mode (and
+                    the control).
+                </li>
+            </ul>
+        </span>
+
+        <p>More can be found <a target="_blank"
+                href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video">here</a>.
+        </p>
+    </div>
+    <footer>
+        All rights reserved
+    </footer>
+</body>
+
+</html>

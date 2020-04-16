@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="css/anim.css">
+    <title>HTML_CSS_features</title>
+</head>
+
+<body>
+    <ul class="navigation">
+        <li><a href="../index.html">Main</a></li>
+        <li class="dropdown"><a href="main_html.html" class="dropbtn">HTML</a>
+            <div class="dropdown-content">
+                <a href="audio_html.html">Audio</a>
+                <a href="custom_html.html">Data Attribute</a>
+                <a href="mark_html.html">Mark Element</a>
+                <a href="regex_html.html">Regular Expressions</a>
+                <a href="video_html.html">Video</a>
+            </div>
+        </li>
+        <li class="dropdown"><a href="main_css.html" class="dropbtn active">CSS</a>
+            <div class="dropdown-content">
+                <a class="active" href="anim_css.html">Animations and Transitions</a>
+                <a href="gradients_css.html">Gradients</a>
+                <a href="background_css.html">Multiple Backgrounds</a>
+                <a href="columns_css.html">CSS columns</a>
+                <a href="3d_css.html">3D Transformation</a>
+            </div>
+        </li>
+    </ul>
+    <div class="container">
+        <p>CSS animations are finally available in all major browsers, even in IE (since version 10). There are two ways
+            to create
+            CSS animations. The first is very easy, it is done through animating the changes of CSS properties with the
+            transition
+            declaration. With transitions, you can create hover or mouse down effects, or you can trigger the animation
+            by changing
+            the style of an element with JavaScript. You can see the transition below by hovering over the planet - this
+            will cause
+            the rocket to close in.
+
+            The second way for defining animations is a bit more complicated - it involves the description of specific
+            moments of
+            the animation with the <code>code>@keyframe</code> rule. This allows you to have repeating animations that
+            don't depend
+            on user
+            actions or JavaScript to get triggered. Hit the Edit button to see the code.</p>
+
+        <div class='cnt'>
+            <div class="planet"></div>
+            <div class="rocket"></div>
+        </div>
+        <p>More can be found <a target="_blank"
+                href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations">here</a>.
+        </p>
+    </div>
+
+    <footer>
+        All rights reserved
+    </footer>
+</body>
+
+</html>
